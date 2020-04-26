@@ -18,6 +18,8 @@ I used RELU as the activation function,as it gave better results than the sigmoi
 
 I have defined my own cost function and gradient functions using the backpropogation algorithm.The cost function and the gradient function are passed to the scipy.optimise.fmin_tnc() function which performs stoichastic gradient descent to find the optimum weights for the neural network through a 30 epochs.
 
+RESULTS:
+
 After performing a parametric sweep over the regularisation term :lamda, I have found out that lamda=0.001 gives the best results.
 
 Using this value of lamda, training the neural network with the training data, and using it upon the test data it results in a mean error of 3.57 over the test data.The standard deviation of the error is around 2.65.
