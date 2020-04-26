@@ -11,9 +11,10 @@ A dataset has been downloaded from the internet which has recorded data of the s
 
 
 IMPLEMENTATION OF THE NEURAL NETWORK MODEL:
+
 I used a 3 layer neural network,the first layer has 9  neurons(the input features), the second layer has 4 neurons(the hidden layer) and the output layer consists of a single neuron.
 
-I used RELU as the activation function
+I used RELU as the activation function,as it gave better results than the sigmoid activation function
 
 I have defined my own cost function and gradient functions using the backpropogation algorithm.The cost function and the gradient function are passed to the scipy.optimise.fmin_tnc() function which performs stoichastic gradient descent to find the optimum weights for the neural network through a 30 epochs.
 
