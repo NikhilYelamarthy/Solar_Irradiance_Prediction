@@ -1,7 +1,8 @@
 # Solar_Prediction-model
 
 
-INRODUCTION TO THE PROBLEM:
+INRODUCTION TO THE PROBLEM: 
+
 With the increase in the consumption of renewable energy resources like solar and wind power,their unpredictability leads to a lot of inefficiency in the electric grid.If we know the power output of the renewable energy source before hand, we can efficiently design the operating of the grid.
 
 In this project we deal with predicting the solar irradiance based on a set of 9 parameters,which include: Temperature,Pressure,Humidity,Wind direction, Wind speed ,length of the day, hour of the day, month and year.
