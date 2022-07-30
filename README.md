@@ -9,7 +9,7 @@ Correlations were found out between the irradiance and different meteorological
 parameters like temperature, humidity, air pressure etc. to observe on which variables, the
 irradiance depended strongly on, and an LSTM with 24-time steps was modeled to predict
 the day-ahead hourly solar irradiance. Upon training and arriving at the best values of the hyper-parameters, the final model was
-able to predict day-ahead solar irradiance with a 6% error.
+able to predict day-ahead solar irradiance with a 0.95 R2 score.
 
 This could have been further
 decreased, if I had access to the cloud-type data for training the model,which I couldn't
